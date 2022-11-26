@@ -5,51 +5,63 @@ const fs = require("fs");
 
 
 // TODO: Create an array of questions for user input
- const questions = inquirer.prompt([
-        {
-            type: "input",
-            message: "Whats your proyect title?",
-            name: "title",
+const questions = inquirer.prompt([
+    {
+        type: "input",
+        message: "Whats your proyect title?",
+        name: "title",
+        validate: (value) => { if (value) { return true } else { return "Input a value to continue" } }
         },
         {
             type: "input",
-            message: "Description",
+            message:"Provide a short description explaining the what, why, and how of your project:",
             name: "description",
+            validate: (value) => { if (value) { return true } else { return "Input a value to continue" } }
 
         },
         {
             type: "input",
-            message: "Table of contents (optional):",
-            name: "table of contents",
-
-        },
-        {
-            type: "input",
-            message: "Installation:",
+            message:"What are the steps required to install your project?",
             name: "installation",
+            validate: (value) => { if (value) { return true } else { return "Input a value to continue" } }
 
         },
         {
             type: "input",
-            message: "Usage:",
+            message: "Provide instructions and examples for use. Include screenshots as needed.",
             name: "usage",
+            validate: (value) => { if (value) { return true } else { return "Input a value to continue" } }
 
         },
         {
             type: "input",
-            message: "Credits:",
+            message: "List your collaborators, if any, with links to their GitHub profiles.",
             name: "credits",
+            validate: (value) => { if (value) { return true } else { return "Input a value to continue" } }
 
         },
         {
             type: "list",
             message: "License:",
             name: "license",
-            choices: ['gato', 'perro'],
+            choices: ['Academic Free License v3.0', 'perro'],
+            validate: (value) => { if (value) { return true } else { return "Input a value to continue" } }
 
-        },
+         },
+         {
+        type: "input",
+        message: "List your collaborators, if any, with links to their GitHub profiles.",
+        name: "questions",
+        validate: (value) => { if (value) { return true } else { return "Input a value to continue" } }
+
+         },
+          
+        
+        
+        
+        
       
-    ])
+ ])
     .then((answers) => {
 
         answers.confirm === answers.password
