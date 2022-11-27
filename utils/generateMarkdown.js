@@ -40,7 +40,7 @@ function renderLicenseSection(license) {
   } else {
     licenseSection = `License for this project: ${license}`
   }
-  return licenseSection 
+  return licenseSection
 
 }
 
@@ -49,60 +49,59 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-##${renderLicenseBadge(data.license)}
+## ${renderLicenseBadge(data.license)}
 
-##Description
+## Description
 
-#${data.description}
-
-
-##Table of Contents
-
-### *[Installation](#installation)
-### *[Usage](#usage)
-### *[Credits](#credits)
-### *[License](#license)  
+${data.description}
 
 
+## Table of Contents
 
-##Installation
-###You must follow the steps for this app to function:
-### ${data.installation}
+ -[Installation](#installation)
+ -[Usage](#usage)
+ -[Credits](#credits)
+ -[License](#license)  
 
 
 
-##Usage
-
-###${data.usage}
-
-
-
-##Credits
-
-###${data.credits}
-
-
-##License
-
-## ${renderLicenseSection(data.license)}${renderLicenseLink(data.license)}
-
-
-##Contributing
-
-###${data.contributions}
-
-##Tests
-
-### To test this application run the following commands in your terminal:
-### ${data.test}
+## Installation
+${data.installation}
 
 
 
-##Questions
-### If you have any questions, you may be able to contact me at either
-### GitHub: https://github.com/${data.gitHub}
-### or
-### Email: ${data.email}
+## Usage
+
+${data.usage}
+
+
+
+## Credits
+
+${data.credits}
+
+
+## License
+
+${renderLicenseSection(data.license)}  ${renderLicenseLink(data.license)}
+
+
+## Contributing
+
+ ${data.contributions}
+
+## Tests
+
+To test this application run the following commands in your terminal:
+ ${data.test}
+
+
+
+## Questions
+ If you have any questions, you may be able to contact me at either
+ GitHub: https://github.com/${data.gitHub}
+ or
+ Email: ${data.email}
 
   
   `;
