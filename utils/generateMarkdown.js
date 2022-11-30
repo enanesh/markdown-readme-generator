@@ -8,10 +8,17 @@ function renderLicenseBadge(license) {
   let badge = " ";
   if (license === "Apache 2.0 License") {
     badge =
-      "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]";
+      "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
   } else if (license === "Boost Software License 1.0") {
     badge =
       "![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)";
+  } else if (license === "MIT") {
+    badge =
+      "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+  } else if (license === "Mozilla Public License 2.0") {
+    badge =
+      "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)"; 
+    
   } else {
     badge = " ";
   }
@@ -25,6 +32,11 @@ function renderLicenseLink(license) {
     link = "https://opensource.org/licenses/Apache-2.0";
   } else if (license === "Boost Software License 1.0") {
     link = "https://www.boost.org/LICENSE_1_0.txt";
+  } else if (license === "MIT") {
+    link = "https://img.shields.io/badge/License-MIT-yellow.svg";
+  } else if (license === "Mozilla Public License 2.0") {
+    link = "https://opensource.org/licenses/MPL-2.0";
+
   } else {
     link = " ";
   }
@@ -47,57 +59,71 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `### **${data.title}**
+  _________________
 
-## ${renderLicenseBadge(data.license)}
 
-## Description
+## **${renderLicenseBadge(data.license)}**
+
+
+
+## **Description**
+_________________
 
 ${data.description}
 
 
-## Table of Contents
+## **Table of Contents**
+________________
 
- -[Installation](#installation)
- -[Usage](#usage)
- -[Credits](#credits)
- -[License](#license)  
+ - [Installation](#installation)  
+ - [Usage](#usage) 
+ - [Credits](#credits)  
+ - [License](#license)    
 
 
 
-## Installation
+## **Installation**
+_________________
 ${data.installation}
 
 
 
-## Usage
+## **Usage**
+_________________
 
 ${data.usage}
 
 
 
-## Credits
+## **Credits**
+_________________
 
 ${data.credits}
 
 
-## License
+## **License**
+_________________
 
 ${renderLicenseSection(data.license)}  ${renderLicenseLink(data.license)}
 
 
-## Contributing
+## **Contributing**
+_________________
 
  ${data.contributions}
 
-## Tests
+
+## **Tests**
+_________________
 
 To test this application run the following commands in your terminal:
  ${data.test}
 
 
+## **Questions**
+_________________
 
-## Questions
  If you have any questions, you may be able to contact me at either
  GitHub: https://github.com/${data.gitHub}
  or

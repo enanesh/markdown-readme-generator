@@ -22,7 +22,7 @@ const questions = [
   {
     type: "input",
     message:
-      "Provide a short description explaining the what, why, and how of your project:",
+      "Provide a short description of your project:",
     name: "description",
     validate: (value) => {
       if (value) {
@@ -46,7 +46,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Provide instructions and examples for use. Include screenshots as needed.",
+    message: "Provide instructions and examples for use:",
     name: "usage",
     validate: (value) => {
       if (value) {
@@ -59,7 +59,7 @@ const questions = [
   {
     type: "input",
     message:
-      "List your collaborators, if any, with links to their GitHub profiles.",
+      "List your collaborators:",
     name: "credits",
     validate: (value) => {
       if (value) {
@@ -73,7 +73,7 @@ const questions = [
     type: "list",
     message: "License:",
     name: "license",
-    choices: ["Apache 2.0 License", "Boost Software License 1.0", "N/A"],
+    choices: ["Apache 2.0 License", "Boost Software License 1.0", "MIT","Mozilla Public License 2.0", "N/A"],
     validate: (value) => {
       if (value) {
         return true;

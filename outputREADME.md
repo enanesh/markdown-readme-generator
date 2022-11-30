@@ -1,58 +1,72 @@
-# MARACAS
-
-## ![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
-
-## Description
-
-ATODO ESTA BIEN ME SIUEBNTOSERJHIOAEJRGVIo 
+### **J**
+  _________________
 
 
-## Table of Contents
-
- *[Installation](#installation)
- *[Usage](#usage)
- *[Credits](#credits)
- *[License](#license)  
+## **![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)**
 
 
 
-## Installation
- You must follow the steps for this app to function:1- CREAR UNBA NUEVA CARPETA
+## **Description**
+_________________
+
+J
+
+
+## **Table of Contents**
+________________
+
+ - [Installation](#installation)  
+ - [Usage](#usage) 
+ - [Credits](#credits)  
+ - [License](#license)    
 
 
 
-## Usage
-
-DEVABFGF
-
-
-
-## Credits
-
-SUYVIUYTRSY
+## **Installation**
+_________________
+J
 
 
-## License
 
-License for this project: Boost Software License 1.0https://www.boost.org/LICENSE_1_0.txt
+## **Usage**
+_________________
+
+J
 
 
-## Contributing
 
- HFSGBVYGYEGYF
+## **Credits**
+_________________
 
-## Tests
+J
+
+
+## **License**
+_________________
+
+License for this project: Mozilla Public License 2.0  https://opensource.org/licenses/MPL-2.0
+
+
+## **Contributing**
+_________________
+
+ J
+
+
+## **Tests**
+_________________
 
 To test this application run the following commands in your terminal:
- FKUNBVAHTyUr
+ J
 
 
+## **Questions**
+_________________
 
-## Questions
  If you have any questions, you may be able to contact me at either
- GitHub: https://github.com/NERHJAHUBYECFAG
+ GitHub: https://github.com/J
  or
- Email: VJNSGBHRGTYVGNBHGT@GMAIL.COM
+ Email: J
 
   
   
