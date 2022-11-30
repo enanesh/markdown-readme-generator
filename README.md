@@ -25,11 +25,17 @@ Once you cloned the repo yuo are ready to make any changes.
 
 
 
-LINK TO WATCH THE DEMO VIDEO : ![Watch the video](https://watch.screencastify.com/v/cfmGerO10gtBTGIoQ4VU)
+https://user-images.githubusercontent.com/111031708/204695144-b1d900f4-aa37-44e6-b15d-be50f8b0938a.mp4
 
 
 
-! [Screenshot] (https://github.com/enanesh/markdown-readme-generator/blob/main/assets/Screenshot%20PM.png?raw=true)
+
+
+
+
+! [Screenshot])
+
+
 
 
 
