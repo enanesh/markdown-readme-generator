@@ -71,7 +71,7 @@ const questions = [
   },
   {
     type: "list",
-    message: "License:",
+    message: "Choose a License:",
     name: "license",
     choices: ["Apache 2.0 License", "Boost Software License 1.0", "MIT","Mozilla Public License 2.0", "N/A"],
     validate: (value) => {
