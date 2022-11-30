@@ -1,4 +1,4 @@
-### **Readme Generator**
+### **README Generator**
   _________________
 
 
@@ -34,7 +34,7 @@ First you have to clone this repository into your local-After that you can run y
 ## **Usage**
 _________________
 
-This a command-line application that accepts user input for quickly create a professional README
+This a command-line application that accepts user input for quickly create a professional README.md files
 
 
 
@@ -47,20 +47,20 @@ Markdown guide:https://www.markdownguide.org/basic-syntax/#line-break-best-pract
 ## **License**
 _________________
 
-License for this project: MIT  https://img.shields.io/badge/License-MIT-yellow.svg
+License for this project: MIT  https://opensource.org/licenses/MIT
 
 
 ## **Contributing**
 _________________
 
- Contributions must be using inquirer
+ All the contributions has to be using inquirer library.
 
 
 ## **Tests**
 _________________
 
 To test this application run the following commands in your terminal:
- Not available at this time
+ No available test at this time.
 
 
 ## **Questions**
