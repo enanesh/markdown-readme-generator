@@ -33,7 +33,7 @@ function renderLicenseLink(license) {
   } else if (license === "Boost Software License 1.0") {
     link = "https://www.boost.org/LICENSE_1_0.txt";
   } else if (license === "MIT") {
-    link = "https://img.shields.io/badge/License-MIT-yellow.svg";
+    link = "https://opensource.org/licenses/MIT";
   } else if (license === "Mozilla Public License 2.0") {
     link = "https://opensource.org/licenses/MPL-2.0";
 
