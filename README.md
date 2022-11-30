@@ -25,19 +25,21 @@ Once you cloned the repo yuo are ready to make any changes.
 
 
 
+#### DEMO VIDEO
+
 https://user-images.githubusercontent.com/111031708/204695144-b1d900f4-aa37-44e6-b15d-be50f8b0938a.mp4
 
 
 
 
+ ### Screenshot 1
+
+ ![Screenshot](https://github.com/enanesh/markdown-readme-generator/blob/main/assets/Screenshot%20PM.png)
 
 
-
-! [Screenshot])
-
-
-
-
+### Screenshot 2
+ ![Screenshot](https://raw.githubusercontent.com/enanesh/markdown-readme-generator/fed6a95a11f02e2505fd336606523ee555162e00/assets/Screenshot%202%20.png)
+    
 
 
 
