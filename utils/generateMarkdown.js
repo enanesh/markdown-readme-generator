@@ -63,7 +63,7 @@ function generateMarkdown(data) {
   _________________
 
 
-## **${renderLicenseBadge(data.license)}**
+## ${renderLicenseBadge(data.license)}
 
 
 
@@ -79,7 +79,10 @@ ________________
  - [Installation](#installation)  
  - [Usage](#usage) 
  - [Credits](#credits)  
- - [License](#license)    
+ - [License](#license)
+ - [Contributing](#contributing)  
+ - [Test](#test)
+ - [Questions](#questions)      
 
 
 

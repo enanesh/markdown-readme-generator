@@ -1,15 +1,15 @@
-### **J**
+### **l**
   _________________
 
 
-## **![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)**
+##  
 
 
 
 ## **Description**
 _________________
 
-J
+l
 
 
 ## **Table of Contents**
@@ -24,49 +24,49 @@ ________________
 
 ## **Installation**
 _________________
-J
+l
 
 
 
 ## **Usage**
 _________________
 
-J
+l
 
 
 
 ## **Credits**
 _________________
 
-J
+l
 
 
 ## **License**
 _________________
 
-License for this project: Mozilla Public License 2.0  https://opensource.org/licenses/MPL-2.0
+License for this project: N/A   
 
 
 ## **Contributing**
 _________________
 
- J
+ l
 
 
 ## **Tests**
 _________________
 
 To test this application run the following commands in your terminal:
- J
+ l
 
 
 ## **Questions**
 _________________
 
  If you have any questions, you may be able to contact me at either
- GitHub: https://github.com/J
+ GitHub: https://github.com/l
  or
- Email: J
+ Email: l
 
   
   
